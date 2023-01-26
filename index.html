@@ -17,6 +17,7 @@
   <meta name="author" content="AbuduChoy">
 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Javascript for animation -->
 
@@ -36,7 +37,7 @@
         <li><a href="#experience">EXPERIENCE</a></li>
       </ul>
     </nav>
-    <div class='menu-toggle'>MENU</div>
+    <div class='menu-toggle'><i class="fa fa-bars"></i></div>
   </header>
 
   <section id="home">
@@ -55,11 +56,12 @@
 
 
   <script>
-    $(document).ready(function() {
-      $(".menu-toggle").click(function() {
+    $(document).ready(function () {
+      $(".menu-toggle").click(function () {
         $('nav').toggleClass('active');
       })
     })
   </script>
 </body>
+
 </html>

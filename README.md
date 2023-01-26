@@ -2,8 +2,19 @@
 
 abuduchoy.my.id
 
-## DASBOARD
+## PENDAHULUAN
 
-coba dengan ini
+Saya pengembang dari abuduchoy.my.id
+
+
+## SITE BERJALAN
+
+
+
+## KONTAK SAYA
+
+IG
+FB
+YOUTUBE
 
 
