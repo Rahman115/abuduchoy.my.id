@@ -170,9 +170,9 @@ header .logo {
     font-weight: bold;
 }
 
-/** RESPONSIVE **/
+/** RESPONSIVE HEADER**/
 
-@media (max-width : 730px) {
+@media (max-width : 830px) {
     header {
         padding: 0 30px;
     }
