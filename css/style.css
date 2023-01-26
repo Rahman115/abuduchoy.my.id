@@ -179,6 +179,11 @@ header .logo {
 
     .menu-toggle {
         display: block;
+        
+    }
+
+    .menu-toggle i{
+        font-size: 24px;
     }
 
     header nav {
