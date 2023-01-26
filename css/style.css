@@ -179,10 +179,10 @@ header .logo {
 
     .menu-toggle {
         display: block;
-        
+
     }
 
-    .menu-toggle i{
+    .menu-toggle i {
         font-size: 24px;
     }
 
@@ -222,11 +222,13 @@ header .logo {
 section {
     /* padding: 30 0 30 0; */
     margin: 5px;
-    height: 420px;
-    background: #db1b3e;
+    /* height: 420px; */
+    /* background: #db1b3e; */
 }
 
 section#home {
+    margin-top: 20px;
     padding: 50px;
+    background-color: #fff;
 
 }
