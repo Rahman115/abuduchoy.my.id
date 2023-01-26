@@ -152,6 +152,68 @@ header nav ul li a.active {
 
 }
 
+.menu-toggle {
+
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+header .logo {
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+/** RESPONSIVE **/
+
+@media (max-width : 730px) {
+    header {
+        padding: 0 30px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        position: fixed;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+
+        transition: 0.5s all;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        color: #fff;
+    }
+
+
+
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 730px) {}
+
+
 section {
     /* padding: 30 0 30 0; */
     margin: 5px;
