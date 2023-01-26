@@ -230,6 +230,10 @@ section#home {
     margin-top: 20px;
     padding: 50px;
     background-image: url("https://abuduchoy.my.id/images/281454405_5175711389156874_6556101183153490453_n.jpg");
-    height: 420px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
 }
