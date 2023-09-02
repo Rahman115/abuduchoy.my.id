@@ -230,7 +230,7 @@ section#home {
     margin-top: 20px;
     padding: 50px;
     /* background-image: url("https://abuduchoy.my.id/images/281454405_5175711389156874_6556101183153490453_n.jpg"); */
-    background-color: #ffffff;
+    background-color: #f19a9a;
     height: 540px;
     background-position-x: right;
     background-position-y: bottom;
@@ -246,5 +246,5 @@ section#home {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(43, 32, 32);
 }
