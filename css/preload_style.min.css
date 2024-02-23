@@ -4,6 +4,10 @@
     --cp-component-bg: #fff;
     --cp-header-bg: #fff;
     --cp-pages-bg: #fff;
+    --cp-font-sc: #aeaeae;
+    --cp-footer-bg: rgb(242, 242, 242);
+    --cp-footer-text: rgb(105, 105, 105);
+    /* --cp-footer-bg: #abb8c3; */
     --cp-spacer-0: 0;
     --cp-spacer-1: .25rem;
     --cp-spacer-2: .5rem;

@@ -179,3 +179,80 @@ nav ul li a:active {
 .col-12 {
     width: 100%;
 }
+
+.post {
+    /* background-color: #e3e3e3; */
+    padding: 0;
+}
+
+.post h1 {
+    font-size: var(--cp-spacer-7);
+    font-weight: 700;
+}
+
+.post .dashboard {
+    display: grid;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    /* background-color: #e3e3e3; */
+}
+
+.dashboard .title {
+    padding: 5px;
+    text-align: center;
+    font-weight: 800;
+    font-size: var(--cp-spacer-5);
+    /* font-style: ; */
+    text-transform: uppercase;
+}
+
+.dashboard .date {
+    text-align: center;
+    font-style: italic;
+    color: var(--cp-font-sc);
+    padding: 10px;
+}
+
+.dashboard .images {
+    width: 100%;
+    height: 300xp;
+    overflow: hidden;
+    float: left;
+}
+
+.dashboard .images img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.dashboard .parag {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.dashboard .read {
+    /* background-color: blue; */
+    float: right;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+
+
+footer {
+    background-color: var(--cp-footer-bg);
+    padding: 20px 20px 30px 20px;
+    color: var(--cp-footer-text);
+    text-align: center;
+    font-size: var(--cp-spacer-4);
+}
+
+.atribut h1{
+    font-size: var(--cp-spacer-6);
+    font-weight: 700;
+}
