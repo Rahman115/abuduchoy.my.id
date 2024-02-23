@@ -105,7 +105,7 @@ a {
 }
 
 header {
-    background-image: linear-gradient(to top, rgb(20, 106, 154), rgb(32, 136, 192));
+    background-image: linear-gradient(to top, rgb(243, 31, 82), rgb(224, 84, 107));
     position: fixed;
     /** background: rgb(30, 2, 110); **/
     top: 0;
@@ -114,7 +114,6 @@ header {
     width: 100%;
     box-sizing: border-box;
     margin: auto;
-    /* display: block; */
     overflow: hidden;
     list-style-type: none;
     z-index: 1;
