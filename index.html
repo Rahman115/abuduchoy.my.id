@@ -102,50 +102,54 @@
     <div class='menu-toggle'><i class="fa fa-bars"></i></div>
   </header>
 
-  <section id="home">
-    <div class="hero-text">
-      <h1 style="font-size:50px">AbuduChoy.my.ID</h1>
-      <h3>#Web Development #Adventure #User Experience</h3>
-      <!-- <button>Hire me</button> -->
-    </div>
-  </section>
-  <section class="profil" id="profile">
-    <h2>Selamat Datang di Situs Saya</h2>
-  </section>
-  <section id="progress">
-    <!--<button class="g-recaptcha" 
-        data-sitekey="6Ldw8PMnAAAAABrLS9Q67aCmhDL34xtjXhmo1YPj" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>-->
-    <h2>ON PROGRESS</h2>
+  
+  <div class="pages">
+    <section id="home">
+      <div class="hero-text">
+        <h1 style="font-size:50px">AbuduChoy.my.ID</h1>
+        <h3>#Web Development #Adventure #User Experience</h3>
+        <!-- <button>Hire me</button> -->
+      </div>
+    </section>
+    <section class="profil" id="profile">
+      <h2>Selamat Datang di Situs Saya</h2>
+    </section>
+    <section id="progress">
+      <!--<button class="g-recaptcha" 
+          data-sitekey="6Ldw8PMnAAAAABrLS9Q67aCmhDL34xtjXhmo1YPj" 
+          data-callback='onSubmit' 
+          data-action='submit'>Submit</button>-->
+      <h2>ON PROGRESS</h2>
       <!-- 
-    <form method="post" id="frmContact">
-      <p>
-        Fullname: <input type="text" name="fullname" id="fullname" required />
-      </p>
-      <p>
-        Email: <input type="email" name="email" id="email" required />
-      </p>
-      <p>
-        Subject: <input type="text" name="subject" id="subject" />
-      </p>
-      <p>
-        Message: <textarea name="message" id="message"></textarea>
-      </p>
-      <button type="submit" name="submit">Submit</button>
-    </form> -->
-  </section>
-  <section id="experience">
-    <h2>experiences</h2>
-  </section>
+      <form method="post" id="frmContact">
+        <p>
+          Fullname: <input type="text" name="fullname" id="fullname" required />
+        </p>
+        <p>
+          Email: <input type="email" name="email" id="email" required />
+        </p>
+        <p>
+          Subject: <input type="text" name="subject" id="subject" />
+        </p>
+        <p>
+          Message: <textarea name="message" id="message"></textarea>
+        </p>
+        <button type="submit" name="submit">Submit</button>
+      </form> -->
+    </section>
+    <section id="experience">
+      <h2>experiences</h2>
+    </section>
+  </div>
+
 
 
   <script>
-    // $(document).ready(function () {
-    //   $(".menu-toggle").click(function () {
-    //     $('nav').toggleClass('active');
-    //   })
-    // })
+    $(document).ready(function () {
+      $(".menu-toggle").click(function () {
+        $('nav').toggleClass('active');
+      })
+    })
   </script>
   <script>
     // function onSubmit(token) {
@@ -161,7 +165,7 @@
     //     });
     //   });
     // }
-</script>
+  </script>
 </body>
 
 </html>

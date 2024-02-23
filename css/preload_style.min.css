@@ -1,0 +1,17 @@
+:root {
+    --cp-tertiary-contrast: #e5e7e9;
+    --cp-graphic-color: #de5c2e;
+    --cp-component-bg: #fff;
+    --cp-header-bg: #fff;
+    --cp-spacer-0: 0;
+    --cp-spacer-1: .25rem;
+    --cp-spacer-2: .5rem;
+    --cp-spacer-3: .75rem;
+    --cp-spacer-4: 1rem;
+    --cp-spacer-5: 1.25rem;
+    --cp-spacer-6: 1.5rem;
+    --cp-spacer-7: 1.75rem;
+    --cp-spacer-8: 2rem;
+    --cp-spacer-9: 2.5rem;
+    --cp-spacer-10: 3rem
+}

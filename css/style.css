@@ -2,7 +2,8 @@
  * @style for AbuduChoy
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -247,4 +248,14 @@ section#home {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(43, 32, 32);
+}
+
+.pages {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding-top: 60px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+
 }
