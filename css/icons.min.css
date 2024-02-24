@@ -1,3 +1,22 @@
+.icon-instagram, .icon-facebook {
+    background-image: url('./icons/icon.svg');
+    background-repeat: no-repeat;
+}
+.icon-instagram{
+    background-size: 300px 50px;
+    background-position: -3px 0;
+    width: 48px;
+    height: 48px;
+}
+
+.icon-facebook{
+    background-size: 300px 50px;
+    background-position: -59px 0;
+    width: 48px;
+    height: 48px;
+}
+
+
 .icon-imunify-antivirus,
 .icon-imunify360,
 .icon-sitepad,

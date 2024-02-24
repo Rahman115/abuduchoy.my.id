@@ -1,5 +1,6 @@
 @import url('./preload_style.min.css');
 @import url('./fonts.min.css');
+@import url('./icons.min.css');
 
 
 * {
@@ -255,4 +256,9 @@ footer {
 .atribut h1{
     font-size: var(--cp-spacer-6);
     font-weight: 700;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
 }
