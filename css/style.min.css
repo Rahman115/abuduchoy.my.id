@@ -253,6 +253,15 @@ footer {
     font-size: var(--cp-spacer-4);
 }
 
+.atribut .social {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.atribut .social a { 
+    margin-right: 10px;
+}
 .atribut h1{
     font-size: var(--cp-spacer-6);
     font-weight: 700;

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <!-- <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" /> -->
+  <meta http-equiv="pragma" content="no-cache" />
+
+  <!-- <meta http-equiv="refresh" content="3; https://abuduchoy.my.id"> -->
+  <!-- <meta http-equiv="refresh" content="20"> -->
+  <meta name="description" content="Abuduchoy programmer">
+  <meta name="author" content="AbuduChoy">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Javascript for animation -->
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+  <!-- <script async src="https://www.google.com/recaptcha/api.js"></script> -->
+  <!-- <script src="https://www.google.com/recaptcha/api.js?render=6Ldw8PMnAAAAABrLS9Q67aCmhDL34xtjXhmo1YPj"></script> -->
+  <title>AbuduChoy</title>
+</head>
+
+<body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    // import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+    // import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+    // import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configurastion
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // const firebaseConfig = {
+    //   apiKey: "AIzaSyBtZLPj9_hLSfyfZUvq-DCGpzIRlAzAGLU",
+    //   authDomain: "abuduchoy-4ac6b.firebaseapp.com",
+    //   projectId: "abuduchoy-4ac6b",
+    //   storageBucket: "abuduchoy-4ac6b.appspot.com",
+    //   messagingSenderId: "3599818814",
+    //   appId: "1:3599818814:web:eb554e53b3c65a32fb716f",
+    //   measurementId: "G-PNRY37Y66N"
+    // };
+
+    // Initialize Firebase
+    // const app = initializeApp(firebaseConfig);
+    // const analytics = getAnalytics(app);
+
+    // Get a reference to the database service
+    // const db = getDatabase(app);
+
+    // document.getElementById('frmContact').addEventListener('submit', function (e) {
+    //   e.preventDefault();
+    //   set(ref(db, 'users/' + Math.random().toString(36).slice(2, 7)), {
+    //     name: document.getElementById('fullname').value,
+    //     email: document.getElementById('email').value,
+    //     subject: document.getElementById('subject').value,
+    //     message: document.getElementById('message').value
+    //   });
+
+    //   alert('Your form is submitted');
+    //   document.getElementById('frmContact').reset();
+    // });
+
+    // console.log(db);
+
+    // read data from firebase
+    // const dbRef = ref(getDatabase(app));
+    // get(child(dbRef, 'users/')).then((snapshot) => {
+    //   if (snapshot.exists()) {
+    //     Object.keys(snapshot.val()).forEach((key) => {
+    //       console.log(`Name: ${snapshot.val()[key].name}`);
+    //       console.log(`Email: ${snapshot.val()[key].email}`);
+    //       console.log(`Subject: ${snapshot.val()[key].subject}`);
+    //       console.log(`Message: ${snapshot.val()[key].message}`);
+    //     });
+    //   } else {
+    //     console.log("No data available");
+    //   }
+    // }).catch((error) => {
+    //   console.error(error);
+    // });
+  </script>
+  <header>
+    <div class='logo'> abuduchoy.my.id</div>
+    <nav>
+      <ul>
+        <li> <a href="#home">HOME </a></li>
+        <li><a href="#profile">PROFIL</a></li>
+        <li><a href="#progress">PROJECT</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+      </ul>
+    </nav>
+    <div class='menu-toggle'><i class="fa fa-bars"></i></div>
+  </header>
+
+  
+  <div class="pages">
+    <section id="home">
+      <div class="hero-text">
+        <h1 style="font-size:50px">AbuduChoy.my.ID</h1>
+        <h3>#Web Development #Adventure #User Experience</h3>
+        <!-- <button>Hire me</button> -->
+      </div>
+    </section>
+    <section class="profil" id="profile">
+      <h2>Selamat Datang di Situs Saya</h2>
+    </section>
+    <section id="progress">
+      <!--<button class="g-recaptcha" 
+          data-sitekey="6Ldw8PMnAAAAABrLS9Q67aCmhDL34xtjXhmo1YPj" 
+          data-callback='onSubmit' 
+          data-action='submit'>Submit</button>-->
+      <h2>ON PROGRESS</h2>
+      <!-- 
+      <form method="post" id="frmContact">
+        <p>
+          Fullname: <input type="text" name="fullname" id="fullname" required />
+        </p>
+        <p>
+          Email: <input type="email" name="email" id="email" required />
+        </p>
+        <p>
+          Subject: <input type="text" name="subject" id="subject" />
+        </p>
+        <p>
+          Message: <textarea name="message" id="message"></textarea>
+        </p>
+        <button type="submit" name="submit">Submit</button>
+      </form> -->
+    </section>
+    <section id="experience">
+      <h2>experiences</h2>
+    </section>
+  </div>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".menu-toggle").click(function () {
+        $('nav').toggleClass('active');
+      })
+    })
+  </script>
+  <script>
+    // function onSubmit(token) {
+    //   document.getElementById("demo-form").submit();
+    // }
+  </script>
+  <script>
+    // function onClick(e) {
+    //   e.preventDefault();
+    //   grecaptcha.ready(function() {
+    //     grecaptcha.execute('6Ldw8PMnAAAAABrLS9Q67aCmhDL34xtjXhmo1YPj', {action: 'submit'}).then(function(token) {
+    //         // Add your logic to submit to your backend server here.
+    //     });
+    //   });
+    // }
+  </script>
+</body>
+
+</html>
