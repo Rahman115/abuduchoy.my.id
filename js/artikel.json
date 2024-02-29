@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Template 1",
+        "dates": "29-02-2024",
+        "link": "template_1",
+        "img": "image.jpg",
+        "desk": "Bla",
+        "kategori": "template"
+    },
+    {
+        "title": "Membuat Slide dengan CSS dan Javascript",
+        "dates": "29-02-2024",
+        "link": "membuat_slide_dengan_scc_dan_javascript",
+        "img": "image.jpg",
+        "desk": "Bla",
+        "kategori": "tutorial"
+    }
+]
